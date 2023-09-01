@@ -4,8 +4,8 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = '[Your Name]'
-export const siteTitle = 'Next.js Sample Website'
+const name = 'Stanford Games Journal'
+export const siteTitle = 'Stanford Games Journal'
 
 export default function Layout({ children, home }) {
   return (
@@ -40,7 +40,7 @@ export default function Layout({ children, home }) {
           </>
         ) : (
           <>
-            <Link href="/">
+            {/* <Link href="/">
               <Image
                 priority
                 src="/images/profile.jpg"
@@ -54,7 +54,7 @@ export default function Layout({ children, home }) {
               <Link href="/" className={utilStyles.colorInherit}>
                 {name}
               </Link>
-            </h2>
+            </h2> */}
           </>
         )}
       </header>

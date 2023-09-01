@@ -1,3 +1,14 @@
+
+@font-face {
+  font-family: 'Bebas';
+  src: url('/fonts/BebasNeue-Regular.woff2') format('woff2'),
+       url('/fonts/BebasNeue-Regular.woff') format('woff'),
+       url('/fonts/BebasNeue-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
 html,
 body {
   padding: 0;
@@ -24,4 +35,15 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+h1 {
+  font-family: 'Bebas';
+  font-size: 40pt !important;
+  color: #333;
+}
+
+time {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #666;
 }

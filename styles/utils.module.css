@@ -1,3 +1,4 @@
+
 .heading2Xl {
   font-size: 2.5rem;
   line-height: 1.2;
@@ -49,4 +50,18 @@
 
 .lightText {
   color: #666;
+}
+
+.articleTitle {
+  /* font-family: 'BebasNeue-Regular'; */
+}
+
+.articleBody {
+  text-align: justify;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 50px;
+}
+
+.author {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
